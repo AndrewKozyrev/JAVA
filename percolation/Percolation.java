@@ -10,8 +10,9 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
     private int[][] grid;
+    private int nopen;
     private WeightedQuickUnionUF uf;
-    private int vtop = 0;
+    private int vtop;
     private int vbot;
 
     // creates n-by-n grid, with all sites initially blocked
@@ -21,6 +22,8 @@ public class Percolation {
         }
         uf = new WeightedQuickUnionUF(n * n + 2);
         vbot = n * n + 1;
+        vtop = 0;
+        nopen = 0;
         grid = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -42,6 +45,7 @@ public class Percolation {
         }
         if (!isOpen(row, col)) {
             grid[row - 1][col - 1] = 1;
+            nopen++;
             if (validate(row - 1, col) && isOpen(row - 1, col)) {
                 uf.union(index(row, col), index(row - 1, col));
             }
@@ -86,14 +90,18 @@ public class Percolation {
         if (row <= 0 || col <= 0 || row > grid[0].length || col > grid[0].length) {
             throw new IllegalArgumentException("argument out of range")
         }
-        return uf.connected(vtop, index(row, col));
+        return uf.connected(vtop, index(row, col)) && isOpen(row, col);
     }
 
     // returns the number of open sites
-    public int numberOfOpenSites()
+    public int numberOfOpenSites() {
+        return nopen;
+    }
 
     // does the system percolate?
-    public boolean percolates()
+    public boolean percolates() {
+        return uf.connected(vbot, vtop);
+    }
 
     // test client (optional)
     public static void main(String[] args) {

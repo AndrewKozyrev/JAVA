@@ -5,6 +5,8 @@
  **************************************************************************** */
 
 
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
@@ -104,6 +106,15 @@ public class Percolation {
 
     // test client (optional)
     public static void main(String[] args) {
-        PercolationVisualizer.main(args);
+        In in = new In(args[0]);      // input file
+        int n = in.readInt();         // n-by-n percolation system
+        Percolation perc = new Percolation(n);
+
+        while (!in.isEmpty()) {
+            int i = in.readInt();
+            int j = in.readInt();
+            perc.open(i, j);
+        }
+        StdOut.println("The system " + (perc.percolates() ? "percolates" : "does not percolate"));
     }
 }

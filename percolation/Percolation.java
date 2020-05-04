@@ -5,7 +5,6 @@
  **************************************************************************** */
 
 
-import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
@@ -32,7 +31,7 @@ public class Percolation {
                     uf.union(index(i + 1, j + 1), vtop);
                 }
                 if (i + 1 == n) {
-                    uf.union(index(i + 1, j + 1), vbot)
+                    uf.union(index(i + 1, j + 1), vbot);
                 }
             }
         }
@@ -40,23 +39,25 @@ public class Percolation {
 
     // opens the site (row, col) if it is not open already
     public void open(int row, int col) {
-        if (!validate(row, col)) {
-            throw new IllegalArgumentException("argument out of range")
-        }
+
         if (!isOpen(row, col)) {
             grid[row - 1][col - 1] = 1;
             nopen++;
-            if (validate(row - 1, col) && isOpen(row - 1, col)) {
-                uf.union(index(row, col), index(row - 1, col));
+            if (validate(row - 1, col)) {
+                if (isOpen(row - 1, col))
+                    uf.union(index(row, col), index(row - 1, col));
             }
-            if (validate(row + 1, col) && isOpen(row + 1, col)) {
-                uf.union(index(row, col), index(row + 1, col));
+            if (validate(row + 1, col)) {
+                if (isOpen(row + 1, col))
+                    uf.union(index(row, col), index(row + 1, col));
             }
-            if (validate(row, col - 1) && isOpen(row, col - 1)) {
-                uf.union(index(row, col), index(row, col - 1));
+            if (validate(row, col - 1)) {
+                if (isOpen(row, col - 1))
+                    uf.union(index(row, col), index(row, col - 1));
             }
-            if (validate(row, col + 1) && isOpen(row, col + 1)) {
-                uf.union(index(row, col), index(row, col + 1));
+            if (validate(row, col + 1)) {
+                if (isOpen(row, col + 1))
+                    uf.union(index(row, col), index(row, col + 1));
             }
         }
     }
@@ -73,22 +74,20 @@ public class Percolation {
 
     // is the site (row, col) open?
     public boolean isOpen(int row, int col) {
-        if (!validate(row - 1, col - 1)) {
-            throw new IllegalArgumentException("argument out of range")
+        if (!validate(row, col)) {
+            throw new IllegalArgumentException("Cant' index [" + row + "][" + col + "]");
         }
         return grid[row - 1][col - 1] == 1;
     }
 
     private int index(int row, int col) {
-        if (validate(row, col)) {
-            return grid[0].length * (row - 1) + col;
-        }
+        return grid[0].length * (row - 1) + col;
     }
 
     // is the site (row, col) full?
     public boolean isFull(int row, int col) {
-        if (row <= 0 || col <= 0 || row > grid[0].length || col > grid[0].length) {
-            throw new IllegalArgumentException("argument out of range")
+        if (!validate(row, col)) {
+            throw new IllegalArgumentException("Cant' index [" + row + "][" + col + "]");
         }
         return uf.connected(vtop, index(row, col)) && isOpen(row, col);
     }
@@ -105,6 +104,6 @@ public class Percolation {
 
     // test client (optional)
     public static void main(String[] args) {
-        StdOut.println("Hello");
+        PercolationVisualizer.main(args);
     }
 }

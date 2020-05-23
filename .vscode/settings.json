@@ -1,7 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "stdlib.jar",
-        "c:\\Users\\hitma\\Downloads\\Catalogs\\commons-lang3-3.10\\commons-lang3-3.10.jar"
-    ]
-}

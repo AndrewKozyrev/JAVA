@@ -1,9 +1,8 @@
 /* *****************************************************************************
- *  Name:
- *  Date:
- *  Description:
+ *  Name:              Alan Turing
+ *  Coursera User ID:  123456
+ *  Last modified:     1/1/2019
  **************************************************************************** */
-
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
@@ -12,9 +11,9 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 public class Percolation {
     private int[][] grid;
     private int nopen;
-    private WeightedQuickUnionUF uf;
-    private int vtop;
-    private int vbot;
+    private final WeightedQuickUnionUF uf;
+    private final int vtop;
+    private final int vbot;
 
     // creates n-by-n grid, with all sites initially blocked
     public Percolation(int n) {
@@ -91,7 +90,7 @@ public class Percolation {
         if (!validate(row, col)) {
             throw new IllegalArgumentException("Cant' index [" + row + "][" + col + "]");
         }
-        return uf.connected(vtop, index(row, col)) && isOpen(row, col);
+        return uf.find(vtop) == uf.find(index(row, col)) && isOpen(row, col);
     }
 
     // returns the number of open sites
@@ -101,10 +100,9 @@ public class Percolation {
 
     // does the system percolate?
     public boolean percolates() {
-        return uf.connected(vbot, vtop);
+        return uf.find(vbot) == uf.find(vtop);
     }
 
-    // test client (optional)
     public static void main(String[] args) {
         In in = new In(args[0]);      // input file
         int n = in.readInt();         // n-by-n percolation system
@@ -115,6 +113,7 @@ public class Percolation {
             int j = in.readInt();
             perc.open(i, j);
         }
-        StdOut.println("The system " + (perc.percolates() ? "percolates" : "does not percolate"));
+        StdOut.println(
+                "The system " + (perc.percolates() ? "percolates" : "does not percolate"));
     }
 }

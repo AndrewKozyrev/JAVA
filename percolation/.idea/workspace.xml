@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +13,6 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
     <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
-  </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="autoscrollToSource" value="true" />
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,39 +26,34 @@
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
-  <component name="ProjectId" id="1bLfKGJH8T4wERhWZhI1kYOVsVn" />
+  <component name="ProjectId" id="1fGKGLucFdCSbG2lK6C1eY9lzNP" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showModules" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="run.code.analysis.last.selected.profile" value="pAlgorithms, Part I" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Percolation">
+  <component name="RunManager" selected="Application.PercolationStats">
     <configuration name="Percolation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Percolation" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="input8-no.txt" />
+      <option name="PROGRAM_PARAMETERS" value="input8.txt" />
       <method v="2" />
     </configuration>
-    <configuration name="PercolationVisualizer" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="PercolationVisualizer" />
+    <configuration name="PercolationStats" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="input8.txt" />
+      <option name="PROGRAM_PARAMETERS" value="400 400" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -78,5 +68,47 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="228" y="119" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1595850499972">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="228" y="119" key="#org.jetbrains.debugger.memory.view.InstancesWindow/0.0.1366.728@0.0.1366.728" timestamp="1595850499972" />
+    <state x="441" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596358430280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1596358430280" />
+    <state width="1367" height="195" key="GridCell.Tab.0.bottom" timestamp="1596390193100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596390193100" />
+    <state width="1367" height="195" key="GridCell.Tab.0.center" timestamp="1596390193100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="195" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596390193100" />
+    <state width="1367" height="195" key="GridCell.Tab.0.left" timestamp="1596390193100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="195" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596390193100" />
+    <state width="1367" height="195" key="GridCell.Tab.0.right" timestamp="1596390193100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="195" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596390193100" />
+    <state width="1367" height="155" key="GridCell.Tab.1.bottom" timestamp="1596373898883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="155" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596373898883" />
+    <state width="1367" height="155" key="GridCell.Tab.1.center" timestamp="1596373898883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="155" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596373898883" />
+    <state width="1367" height="155" key="GridCell.Tab.1.left" timestamp="1596373898883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="155" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596373898883" />
+    <state width="1367" height="155" key="GridCell.Tab.1.right" timestamp="1596373898883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="155" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596373898883" />
   </component>
 </project>

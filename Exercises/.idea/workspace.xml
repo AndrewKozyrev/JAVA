@@ -44,15 +44,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Exercise_14_09_2020.level1.level2.level3.Class2">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="Exercise_14_09_2020.level1.level2.level3.Class2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_14_09_2020.level1.level2.level3.Class2" />
+      <module name="Exercises" />
+      <method v="2" />
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.test.Solution" />
@@ -63,9 +68,7 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -85,29 +88,56 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="380" y="0" width="619" height="728" key="#Solution/0.0.1366.728@0.0.1366.728" timestamp="1598008621517" />
-    <state x="463" y="97" key="FileChooserDialogImpl" timestamp="1598008407527">
+    <state x="463" y="97" key="FileChooserDialogImpl" timestamp="1600091983988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="97" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598008407527" />
-    <state width="1345" height="171" key="GridCell.Tab.0.bottom" timestamp="1598027416758">
+    <state x="463" y="97" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600091983988" />
+    <state width="1345" height="214" key="GridCell.Tab.0.bottom" timestamp="1600111716213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598027416758" />
-    <state width="1345" height="171" key="GridCell.Tab.0.center" timestamp="1598027416758">
+    <state width="1345" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600111716213" />
+    <state width="1345" height="214" key="GridCell.Tab.0.center" timestamp="1600111716212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598027416758" />
-    <state width="1345" height="171" key="GridCell.Tab.0.left" timestamp="1598027416758">
+    <state width="1345" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600111716212" />
+    <state width="1345" height="214" key="GridCell.Tab.0.left" timestamp="1600111716211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598027416758" />
-    <state width="1345" height="171" key="GridCell.Tab.0.right" timestamp="1598027416758">
+    <state width="1345" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600111716211" />
+    <state width="1345" height="214" key="GridCell.Tab.0.right" timestamp="1600111716212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598027416758" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1598008481949">
+    <state width="1345" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600111716212" />
+    <state width="1345" height="214" key="GridCell.Tab.1.bottom" timestamp="1600111716214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598008481949" />
+    <state width="1345" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600111716214" />
+    <state width="1345" height="214" key="GridCell.Tab.1.center" timestamp="1600111716213">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600111716213" />
+    <state width="1345" height="214" key="GridCell.Tab.1.left" timestamp="1600111716213">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600111716213" />
+    <state width="1345" height="214" key="GridCell.Tab.1.right" timestamp="1600111716213">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600111716213" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1600092003667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600092003667" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercise_14_09_2020/level1/level2/level3/Class2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

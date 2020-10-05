@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c12d34f-a7db-460e-b6a8-bcfa710fc787" name="Default Changelist" comment="" />
+    <list default="true" id="6c12d34f-a7db-460e-b6a8-bcfa710fc787" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Exercise_14_09_2020/level1/level2/level3/Class2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises/com/javarush/test/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises/com/javarush/test/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise_14_09_2020/level1/level2/level3/Class2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javarush/test/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javarush/test/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,10 +53,16 @@
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1gOa4Wt7aEUsTx5mnDFmpGJrspt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -43,20 +75,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.Exercise_14_09_2020.level1.level2.level3.Class2">
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-    </configuration>
+  <component name="RunManager" selected="Application.MiniDuckSimulator">
     <configuration name="Exercise_14_09_2020.level1.level2.level3.Class2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Exercise_14_09_2020.level1.level2.level3.Class2" />
       <module name="Exercises" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Duck.MiniDuckSimulator" />
+      <module name="Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Duck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2" />
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -77,57 +118,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiniDuckSimulator" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c12d34f-a7db-460e-b6a8-bcfa710fc787" name="Default Changelist" comment="" />
+      <created>1601460355287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601460355287</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="380" y="0" width="619" height="728" key="#Solution" timestamp="1598008621517">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="380" y="0" width="619" height="728" key="#Solution/0.0.1366.728@0.0.1366.728" timestamp="1598008621517" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1601712683392">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601712683392" />
     <state x="463" y="97" key="FileChooserDialogImpl" timestamp="1600091983988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="97" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600091983988" />
-    <state width="1345" height="214" key="GridCell.Tab.0.bottom" timestamp="1600111716213">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1601719454002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600111716213" />
-    <state width="1345" height="214" key="GridCell.Tab.0.center" timestamp="1600111716212">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601719454002" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1601719454002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600111716212" />
-    <state width="1345" height="214" key="GridCell.Tab.0.left" timestamp="1600111716211">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601719454002" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1601719454002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600111716211" />
-    <state width="1345" height="214" key="GridCell.Tab.0.right" timestamp="1600111716212">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601719454002" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1601719454002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600111716212" />
-    <state width="1345" height="214" key="GridCell.Tab.1.bottom" timestamp="1600111716214">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601719454002" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1601470017709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600111716214" />
-    <state width="1345" height="214" key="GridCell.Tab.1.center" timestamp="1600111716213">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601470017709" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1601470017708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600111716213" />
-    <state width="1345" height="214" key="GridCell.Tab.1.left" timestamp="1600111716213">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601470017708" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1601470017708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600111716213" />
-    <state width="1345" height="214" key="GridCell.Tab.1.right" timestamp="1600111716213">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601470017708" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1601470017708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600111716213" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1600092003667">
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601470017708" />
+    <state x="173" y="5" width="1040" height="723" key="SettingsEditor" timestamp="1601460930414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600092003667" />
+    <state x="173" y="5" width="1040" height="723" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601460930414" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601460240261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601460240261" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

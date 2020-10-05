@@ -1,15 +1,20 @@
 package com.javarush.test;
 
-import java.io.IOException;
-import java.io.InputStreamReader;
+/*
+И снова StackTrace
+*/
 
 public class Solution {
-    public static void main(String[] args) throws IOException {
-
-        InputStreamReader reader = new InputStreamReader(System.in);
-        while (true) {
-            int x = reader.read();
-            System.out.println(x);
+    public static void main(String[] args) {
+        for (int i = 10; i > 0; i--)
+        {
+            System.out.println(i);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
+        System.out.println("Поехали");
     }
 }

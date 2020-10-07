@@ -1,182 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4571b18c-a87a-4cb4-99c6-862c0e33dbd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/$CACHE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/dictionaries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__ch_qos_logback_logback_core_1_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__com_h2database_h2_1_4_192_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__com_sun_xml_bind_jaxb_core_2_2_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__com_sun_xml_bind_jaxb_impl_2_2_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_activemq_activemq_client_5_13_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_core_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_http_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_http_common_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_jdbc_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_jetty9_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_jetty_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_jetty_common_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_jms_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_quartz_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_scala_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_spring_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_camel_camel_spring_redis_2_17_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_commons_commons_dbcp2_2_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_commons_commons_pool2_2_4_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_client_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_continuation_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_http_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_io_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_jmx_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_security_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_server_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_servlet_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_servlets_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_eclipse_jetty_jetty_util_9_2_15_v20160210_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_fusesource_hawtbuf_hawtbuf_1_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_quartz_scheduler_quartz_1_8_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_13_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_data_spring_data_redis_1_6_4_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_aop_4_2_5_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_beans_4_2_5_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_context_4_2_5_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_context_support_4_1_9_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_core_4_2_5_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_expression_4_2_5_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_jms_4_2_5_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_messaging_4_2_5_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_oxm_4_1_9_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__org_springframework_spring_tx_4_2_5_RELEASE_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/libraries/sbt__redis_clients_jedis_2_7_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/modules/camel-scaladsl-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/modules/camel-scaladsl.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/saveactions_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/scala_compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/build.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/build.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$0b20dd929ad80ea7f215$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$0b20dd929ad80ea7f215.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$0b20dd929ad80ea7f215.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$25baafd235f97697bde9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$25baafd235f97697bde9.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$25baafd235f97697bde9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$4f6a0cc740fc66c2da69$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$4f6a0cc740fc66c2da69.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$4f6a0cc740fc66c2da69.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$97861e543656c6db993a$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$97861e543656c6db993a.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$97861e543656c6db993a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$bc5345b527d5ed7dacb2$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$bc5345b527d5ed7dacb2.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$bc5345b527d5ed7dacb2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$fd4ea30915016cb0cc98$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$fd4ea30915016cb0cc98.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/config-classes/$fd4ea30915016cb0cc98.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/_global/update/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/_global/_global/managedSourcePaths/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/copyResources/_global/streams/copy-resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/project/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/src/main/scala/FromFileToFileApp.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/scala-2.11/update/update_cache_2.11/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/scala-2.11/update/update_cache_2.11/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/scala-2.13/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/input_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/output_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/update/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.11/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.11/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleScalaTest/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" />
-    </list>
+    <list default="true" id="ce7492e0-478f-4699-8f2d-14e5356835d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,41 +15,144 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Car_Rental" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Car_Rental" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
-  <component name="ProjectId" id="1iSNhDTwTwQvNhEF3q1HAWDn9zs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iSU87YSXRzaum03Ruuql3Vg5gj" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.iteco.Service" />
+    </key>
   </component>
+  <component name="RunManager">
+    <configuration name="DB_access" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.iteco.DAO.DB_access" />
+      <module name="Car_Rental.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.iteco.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DB_access" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4571b18c-a87a-4cb4-99c6-862c0e33dbd0" name="Default Changelist" comment="" />
-      <created>1601897149814</created>
+      <changelist id="ce7492e0-478f-4699-8f2d-14e5356835d0" name="Default Changelist" comment="" />
+      <created>1601900328594</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601897149814</updated>
+      <updated>1601900328594</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="0" key="SettingsEditor" timestamp="1601897725614">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1601902515351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601897725614" />
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1601902515351" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1602070085597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602070085597" />
+    <state x="413" y="143" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602066428377">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="143" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1602066428377" />
+    <state x="466" y="233" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602066431364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="233" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1602066431364" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1602070440426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602070440426" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1602070440426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602070440426" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1602070440425">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602070440425" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1602070440426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602070440426" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1601988381667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601988381667" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1601988381666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601988381666" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1601988381666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601988381666" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1601988381666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601988381666" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1601902214913">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601902214913" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1602078318869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1602078318869" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601906233517">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601906233517" />
   </component>
 </project>

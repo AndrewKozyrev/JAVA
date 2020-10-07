@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c12d34f-a7db-460e-b6a8-bcfa710fc787" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Exercise_14_09_2020/level1/level2/level3/Class2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises/com/javarush/test/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises/com/javarush/test/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise_14_09_2020/level1/level2/level3/Class2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javarush/test/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javarush/test/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="6c12d34f-a7db-460e-b6a8-bcfa710fc787" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

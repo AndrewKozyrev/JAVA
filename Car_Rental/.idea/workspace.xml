@@ -55,6 +55,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -110,6 +111,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="233" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1602066431364" />
+    <state x="441" y="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602432886104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1602432886104" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1602070440426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -31,39 +31,27 @@ public class DB_access {
         }
     }
 
-    public Map<String, String> getData_PK(String table_name, int key) {
-        Map<String, String> map = null;
+    public String getPrimaryKeyName(String table_name) {
+        String key_name = null;
         try {
             DatabaseMetaData meta = connection.getMetaData();
             ResultSet primary_key_description = meta.getPrimaryKeys(null, null, table_name);
             primary_key_description.next();
-            String key_name = primary_key_description.getString("COLUMN_NAME");
-            String SQL = "SELECT * FROM " + table_name + " WHERE " + key_name + " = " + key;
+            key_name = primary_key_description.getString("COLUMN_NAME");
 
-            ResultSet resultSet = statement.executeQuery(SQL);
-            ResultSetMetaData rsMetaData = resultSet.getMetaData();
-            int count = rsMetaData.getColumnCount();
-            map = new HashMap<>();
-            resultSet.next();
-            for (int i = 1; i <= count; i++) {
-                String columnName = rsMetaData.getColumnName(i);
-                String value = resultSet.getObject(i).toString();
-                map.put(columnName, value);
-            }
         } catch (Exception exception) {
-            System.out.println("Andrew, check function getData_PK");
+            System.out.println("Andrew, check function getPrimaryKey");
             exception.printStackTrace();
             System.out.println(exception);
         }
 
-        return map;
+        return key_name;
     }
 
-    public Map<String, ArrayList<String>> getData(String table_name) {
+    public Map<String, ArrayList<String>> SELECT(String SQL) {
         Map<String, ArrayList<String>> map = null;
 
         try {
-            String SQL = "SELECT * FROM " + table_name;
             var resultSet = statement.executeQuery(SQL);
             var resultSetMetaData = resultSet.getMetaData();
             int col_count = resultSetMetaData.getColumnCount();
@@ -91,17 +79,31 @@ public class DB_access {
         return map;
     }
 
-    public Object getData_query(String SQL) {
-        Object result = null;
+    public String INSERT(String SQL) {
 
+        /*
+        * Building insert statement to insert into table_name key:value
+        * pairs in data variable
+        * */
+
+        String generatedKey = null;
+        ResultSet resultSet = null;
         try {
-            var resultSet = statement.executeQuery(SQL);
-            resultSet.next();
-            result = resultSet.getObject(1);
+            statement.executeUpdate(SQL, Statement.RETURN_GENERATED_KEYS);
+            resultSet = statement.getGeneratedKeys();
+            if (resultSet.next()) {
+                generatedKey = resultSet.getObject(1).toString();
+            }
+
         } catch (SQLException exception) {
+            exception.printStackTrace();
+
+        } catch (Exception exception) {
             exception.printStackTrace();
         }
 
-        return result;
+
+
+        return generatedKey;
     }
 }

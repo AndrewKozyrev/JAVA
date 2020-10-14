@@ -2,6 +2,7 @@ package ru.iteco.Model;
 
 import ru.iteco.DAO.CRUD;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Customer {
@@ -34,7 +35,7 @@ public class Customer {
     }
 
     public Map<String, String> createCustomer(String first_name, String last_name) {
-        return null;
+        return new HashMap<>();
     }
 
     public int getCustomer_id() {

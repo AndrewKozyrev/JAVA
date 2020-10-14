@@ -51,13 +51,17 @@ public class Employee {
         }
         else if (numberOfDays < 30) {
             appliedRate = rate.getWeekly();
-            total = Math.round(numberOfDays / 7) * appliedRate;
+            total = Math.round(numberOfDays / 7.0) * appliedRate;
         }
         else {
             appliedRate = rate.getMonthly();
-            total = Math.round(numberOfDays / 30) * appliedRate;
+            total = Math.round(numberOfDays / 30.0) * appliedRate;
         }
 
         order.setOrder_total(total);
+    }
+
+    public void registerOrder(Order order) {
+
     }
 }

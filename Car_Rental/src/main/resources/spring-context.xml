@@ -3,13 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="customer" class="ru.iteco.Model.Customer"/>
-    <bean id="employee" class="ru.iteco.Model.Employee"/>
-    <bean id="car" class="ru.iteco.Model.Car"/>
+    <bean id="customerImpl" class="ru.iteco.View.CustomerImpl"/>
+    <bean id="employeeImpl" class="ru.iteco.View.EmployeeImpl"/>
+    <bean id="car" class="ru.iteco.View.CarImpl"/>
     <bean id="DB_access" class="ru.iteco.DAO.DB_access"/>
-    <bean id="order" class="ru.iteco.Model.Order" autowire="constructor">
-        <constructor-arg index="0" ref="customer"/>
-        <constructor-arg index="1" ref="employee"/>
+    <bean id="order" class="ru.iteco.View.OrderImpl" autowire="constructor">
+        <constructor-arg index="0" ref="customerImpl"/>
+        <constructor-arg index="1" ref="employeeImpl"/>
     </bean>
 
 </beans>

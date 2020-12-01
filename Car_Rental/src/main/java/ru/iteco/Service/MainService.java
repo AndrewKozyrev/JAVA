@@ -3,9 +3,9 @@ package ru.iteco.Service;
 import org.springframework.context.ApplicationContext;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import ru.iteco.Model.Customer;
-import ru.iteco.Model.Employee;
-import ru.iteco.Model.Order;
+import ru.iteco.View.CustomerImpl;
+import ru.iteco.View.EmployeeImpl;
+import ru.iteco.View.OrderImpl;
 
 
 import java.util.Map;
@@ -14,14 +14,14 @@ public class MainService {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
 
-        Customer customer = (Customer) context.getBean("customer");
-        Employee employee = (Employee) context.getBean("employee");
-        Map<String, String> product_description = customer.getDescription();
-        int car_id = customer.chooseVehicle(product_description);
-        Order order = (Order) context.getBean("order");
-        customer.makeOrder(car_id, 30, order);
-        employee.calculateCost(order);
-        employee.registerOrder(order);
-        employee.checkOrder(order);
+        CustomerImpl customerImpl = (CustomerImpl) context.getBean("customer");
+        EmployeeImpl employeeImpl = (EmployeeImpl) context.getBean("employee");
+        Map<String, String> product_description = customerImpl.getDescription();
+        int car_id = customerImpl.chooseVehicle(product_description);
+        OrderImpl order = (OrderImpl) context.getBean("order");
+        customerImpl.makeOrder(car_id, 30, order);
+        employeeImpl.calculateCost(order);
+        employeeImpl.registerOrder(order);
+        employeeImpl.checkOrder(order);
     }
 }

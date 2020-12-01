@@ -1,8 +1,9 @@
 package ru.iteco.DAO;
 import ru.iteco.Model.*;
+import ru.iteco.View.*;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,25 +15,48 @@ public class CRUD {
         return getData(o, 1);
     }
 
-    public static Map<String, String> getData(Object o, int key) {
+    public static Object getData(Object o, int key) {
         Map<String, String> result = new HashMap<>();
+        ArrayList res = null;
         StringBuilder SQL = new StringBuilder("SELECT * FROM ");
         String table_name = null;
-        if (o instanceof Customer)
+        if (o instanceof CustomerImpl) {
             table_name = "customer";
-        else if (o instanceof Employee)
+            res = new ArrayList<Customer>();
+        }
+        else if (o instanceof EmployeeImpl) {
             table_name = "employee";
-        else if (o instanceof Car)
+            res = new ArrayList<Employee>();
+        }
+        else if (o instanceof CarImpl) {
             table_name = "vehicle";
-        else if (o instanceof Order)
+            res = new ArrayList<Car>();
+        }
+        else if (o instanceof OrderImpl) {
             table_name = "`order`";
-        else if (o instanceof Rate)
+            res = new ArrayList<Order>();
+        }
+        else if (o instanceof RateImpl) {
             table_name = "rate";
+            res = new ArrayList<Rate>();
+        }
 
         SQL.append(table_name).append(" WHERE ").append(database.getPrimaryKeyName(table_name)).append(" = ").append(key);
         Map<String, ArrayList<String>> temp = database.SELECT(SQL.toString());
         for (Map.Entry<String, ArrayList<String>> entry : temp.entrySet()) {
-            result.put(entry.getKey(), entry.getValue().get(0));
+            
+            for (int i = 0; i < entry.getValue().size(); i++) {
+                try {
+                    Class<?> c = res.get(i).getClass();
+                    Field field = c.getDeclaredField(entry.getKey());
+                    field.set(res.get(i), entry.getValue().get(i));
+                } catch (NoSuchFieldException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
+            }
+
         }
         return result;
     }
@@ -44,15 +68,15 @@ public class CRUD {
     public static String setData(Object o, Map<String, String> data) {
         StringBuilder SQL = new StringBuilder("INSERT INTO ");
         String table_name = null;
-        if (o instanceof Customer)
+        if (o instanceof CustomerImpl)
             table_name = "customer";
-        else if (o instanceof Employee)
+        else if (o instanceof EmployeeImpl)
             table_name = "employee";
-        else if (o instanceof Car)
+        else if (o instanceof CarImpl)
             table_name = "vehicle";
-        else if (o instanceof Order)
+        else if (o instanceof OrderImpl)
             table_name = "`order`";
-        else if (o instanceof Rate)
+        else if (o instanceof RateImpl)
             table_name = "rate";
 
         SQL.append(table_name).append(" (");

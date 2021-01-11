@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c12d34f-a7db-460e-b6a8-bcfa710fc787" name="Default Changelist" comment="" />
+    <list default="true" id="6c12d34f-a7db-460e-b6a8-bcfa710fc787" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaRushTasks/inputfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaRushTasks/outputfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxEmailClientCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxEmailClientCourse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxEmailClientCourse/out/production/JavaFxEmailClientCourse/com/andrey/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxEmailClientCourse/out/production/JavaFxEmailClientCourse/com/andrey/Launcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxEmailClientCourse/out/production/JavaFxEmailClientCourse/com/andrey/controller/LoginWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxEmailClientCourse/out/production/JavaFxEmailClientCourse/com/andrey/controller/LoginWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxEmailClientCourse/out/production/JavaFxEmailClientCourse/com/andrey/controller/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxEmailClientCourse/out/production/JavaFxEmailClientCourse/com/andrey/controller/MainWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxEmailClientCourse/out/production/JavaFxEmailClientCourse/com/andrey/view/LoginWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxEmailClientCourse/out/production/JavaFxEmailClientCourse/com/andrey/view/LoginWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxEmailClientCourse/src/com/andrey/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxEmailClientCourse/src/com/andrey/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxEmailClientCourse/src/com/andrey/controller/LoginWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxEmailClientCourse/src/com/andrey/controller/LoginWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxEmailClientCourse/src/com/andrey/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxEmailClientCourse/src/com/andrey/controller/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxEmailClientCourse/src/com/andrey/view/LoginWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxEmailClientCourse/src/com/andrey/view/LoginWindow.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -69,6 +82,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -109,6 +124,17 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -143,8 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601460355287</updated>
+      <workItem from="1608832031326" duration="79000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -159,6 +189,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606828491849">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="424" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1606828491849" />
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1606489948404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

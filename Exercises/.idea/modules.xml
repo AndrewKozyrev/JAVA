@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaRushTasks/1.JavaSyntax/1.JavaSyntax.iml" filepath="$PROJECT_DIR$/JavaRushTasks/1.JavaSyntax/1.JavaSyntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaRushTasks/2.JavaCore/2.JavaCore.iml" filepath="$PROJECT_DIR$/JavaRushTasks/2.JavaCore/2.JavaCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/2021_02_13/2021_02_13.iml" filepath="$PROJECT_DIR$/Practice/2021_02_13/2021_02_13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises.iml" filepath="$PROJECT_DIR$/Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator_01/calculator_01.iml" filepath="$PROJECT_DIR$/calculator_01/calculator_01.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,4 +1,4 @@
-package ru.iteco.DAO;
+package ru.iteco.database;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -9,13 +9,13 @@ public class DB_access {
 
     private Connection connection;
     private Statement statement;
-    private String url = "jdbc:mysql://localhost/carrental?serverTimezone=Europe/Moscow";
-    private String user = "root";
-    private String password = "b2e3t8a2";
+    private static final String URL = "jdbc:mysql://localhost/carrental?serverTimezone=Europe/Moscow";
+    private static final String USER = "root";
+    private static final String PASSWORD = "b2e3t8a2";
 
     public DB_access() {
         try {
-            connection = DriverManager.getConnection(url, user, password);
+            connection = DriverManager.getConnection(URL, USER, PASSWORD);
         } catch (SQLException exception) {
             exception.printStackTrace();
             System.exit(2);

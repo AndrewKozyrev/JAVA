@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="stdlib">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/AlgorithmsPart1/stdlib.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

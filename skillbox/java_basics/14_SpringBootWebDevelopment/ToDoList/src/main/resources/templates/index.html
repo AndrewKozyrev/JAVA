@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>TODO list</title>
+</head>
+<body>
+  <h1>Список дел (<span th:text="${todosCount}">0</span>)</h1>
+  <button id="show-add-todo-form">Добавить дело</button>
+  <br><br>
+  <div id="ToDoList">
+    <div th:each="todo : ${todos}" th:with="cnt = ${counter.incrementAndGet()}">
+      <a href="#" class="todo-link" th:attr="data-id=${todo.id}" th:text="${cnt}+'. '+${todo.description}"></a>
+    </div>
+  </div>
+</body>
+</html>
